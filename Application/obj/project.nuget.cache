@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KOf8sK7P2eJtVGCgbDBk0Pyo82G72KFSEleu9wRxBP73oit3eAS+I8XsE46Y2jkIrWIS5d+eOYVNEyOCN3712A==",
+  "success": true,
+  "projectFilePath": "D:\\Projetos\\WebApi\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dpitangui\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
