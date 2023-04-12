@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\WebApi\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\PROJETOS\\Douglas\\WebApi\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\WebApi\\Application\\Application.csproj": {
+    "C:\\PROJETOS\\Douglas\\WebApi\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\WebApi\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\PROJETOS\\Douglas\\WebApi\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Projetos\\WebApi\\Application\\Application.csproj",
+        "projectPath": "C:\\PROJETOS\\Douglas\\WebApi\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\dpitangui\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\WebApi\\Application\\obj\\",
+        "outputPath": "C:\\PROJETOS\\Douglas\\WebApi\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dpitangui\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/inflor/_packaging/Inflor/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projetos\\WebApi\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projetos\\WebApi\\Domain\\Domain.csproj"
+              "C:\\PROJETOS\\Douglas\\WebApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\PROJETOS\\Douglas\\WebApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -65,18 +66,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\WebApi\\Domain\\Domain.csproj": {
+    "C:\\PROJETOS\\Douglas\\WebApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\WebApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\PROJETOS\\Douglas\\WebApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Projetos\\WebApi\\Domain\\Domain.csproj",
+        "projectPath": "C:\\PROJETOS\\Douglas\\WebApi\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\dpitangui\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\WebApi\\Domain\\obj\\",
+        "outputPath": "C:\\PROJETOS\\Douglas\\WebApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dpitangui\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,7 +88,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/inflor/_packaging/Inflor/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -120,18 +122,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\WebApi\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\PROJETOS\\Douglas\\WebApi\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\WebApi\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\PROJETOS\\Douglas\\WebApi\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Projetos\\WebApi\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\PROJETOS\\Douglas\\WebApi\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\dpitangui\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\WebApi\\Infrastructure\\obj\\",
+        "outputPath": "C:\\PROJETOS\\Douglas\\WebApi\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dpitangui\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -142,14 +144,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/inflor/_packaging/Inflor/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projetos\\WebApi\\Application\\Application.csproj": {
-                "projectPath": "D:\\Projetos\\WebApi\\Application\\Application.csproj"
+              "C:\\PROJETOS\\Douglas\\WebApi\\Application\\Application.csproj": {
+                "projectPath": "C:\\PROJETOS\\Douglas\\WebApi\\Application\\Application.csproj"
               }
             }
           }
@@ -163,6 +166,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.28.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -179,7 +196,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

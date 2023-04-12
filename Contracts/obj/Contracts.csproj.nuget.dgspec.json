@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\WebApi\\Contracts\\Contracts.csproj": {}
+    "C:\\PROJETOS\\Douglas\\WebApi\\Contracts\\Contracts.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\WebApi\\Contracts\\Contracts.csproj": {
+    "C:\\PROJETOS\\Douglas\\WebApi\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\WebApi\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\PROJETOS\\Douglas\\WebApi\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "D:\\Projetos\\WebApi\\Contracts\\Contracts.csproj",
+        "projectPath": "C:\\PROJETOS\\Douglas\\WebApi\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\dpitangui\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\WebApi\\Contracts\\obj\\",
+        "outputPath": "C:\\PROJETOS\\Douglas\\WebApi\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dpitangui\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/inflor/_packaging/Inflor/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -55,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

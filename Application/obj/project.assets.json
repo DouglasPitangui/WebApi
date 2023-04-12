@@ -78,11 +78,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\WebApi\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\PROJETOS\\Douglas\\WebApi\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\Projetos\\WebApi\\Application\\Application.csproj",
+      "projectPath": "C:\\PROJETOS\\Douglas\\WebApi\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\dpitangui\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\WebApi\\Application\\obj\\",
+      "outputPath": "C:\\PROJETOS\\Douglas\\WebApi\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dpitangui\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,14 +93,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/inflor/_packaging/Inflor/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projetos\\WebApi\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Projetos\\WebApi\\Domain\\Domain.csproj"
+            "C:\\PROJETOS\\Douglas\\WebApi\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\PROJETOS\\Douglas\\WebApi\\Domain\\Domain.csproj"
             }
           }
         }
@@ -136,7 +137,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
